@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/3163782288_417204747_223132457.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_329969645_3751055321.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_3085444246_3205822115.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_329969645_790853892.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_1094271076_2241796324.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_3315967912_376503198.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_431452500_657008566.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_329969645_795599250.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_449367781_3612751408.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/EvaluationFunction/2201830969_329969645_2751101938.mp4'

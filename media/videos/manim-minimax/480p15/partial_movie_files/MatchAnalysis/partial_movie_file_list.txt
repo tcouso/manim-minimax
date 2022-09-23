@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/3163782288_178083839_223132457.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_949724037_187341364.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_329969645_585751760.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_4122825760_2030270070.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_329969645_455766796.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_329969645_1777937235.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_2885486348_764042704.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MatchAnalysis/2201830969_329969645_1766374528.mp4'

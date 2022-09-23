@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/3163782288_661612829_223132457.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_370668227_3312352317.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_329969645_1091186033.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_2355726650_670059644.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_3646868625_1536361457.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_3315967912_3220154183.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_1397248495_1839830517.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_3318992982_3211078971.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_329969645_2848360415.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_4152152348_3321263854.mp4'
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/Intuition/2201830969_329969645_2073924225.mp4'

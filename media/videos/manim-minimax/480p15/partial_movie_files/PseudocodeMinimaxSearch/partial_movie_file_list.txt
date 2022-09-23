@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/PseudocodeMinimaxSearch/3163782288_160107502_1579219951.mp4'

@@ -1,0 +1,13 @@
+\documentclass[preview]{standalone}
+
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\begin{center}
+function MinimaxSearch(game, state) returns an action\\&$player \gets game.to\_move(state)$\\&$value, move \gets MaxValue(game, state)$\\\\return move\\function MaxValue(game, state) returns a (utility, move) pair\\if game.is\_terminal(state) then return game.utility(state, player), null
+\end{center}
+
+\end{document}
