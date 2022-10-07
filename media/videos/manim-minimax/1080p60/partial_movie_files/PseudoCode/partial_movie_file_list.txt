@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/1080p60/partial_movie_files/PseudoCode/450974505_1594886809_478981196.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/1080p60/partial_movie_files/PseudoCode/34786186_329969645_2953860723.mp4'

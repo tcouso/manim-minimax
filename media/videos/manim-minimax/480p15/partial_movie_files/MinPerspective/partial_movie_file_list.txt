@@ -1,9 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/3163782288_3383215931_223132457.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_367942669_3624597156.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_329969645_1917161329.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_2925750166_1058850008.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_329969645_3425083081.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_329969645_3201647649.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_1339251307_4204065926.mp4'
-file 'file:/home/tcouso/Projects/manim-minimax/media/videos/manim-minimax/480p15/partial_movie_files/MinPerspective/2201830969_329969645_1056421956.mp4'
