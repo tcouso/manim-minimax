@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/tcouso/Projects/manim-minimax/project/media/videos/code_scenes/1080p60/partial_movie_files/FormalGame/450974505_3315967912_138402894.mp4'
