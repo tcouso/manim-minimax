@@ -50,5 +50,5 @@ l10n/
 # media
 /media
 /notebooks
-/project/media
-/project/.vscode
+/src/media
+/src/.vscode
