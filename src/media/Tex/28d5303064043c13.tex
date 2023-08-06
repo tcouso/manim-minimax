@@ -1,0 +1,19 @@
+\documentclass[preview]{standalone}
+\usepackage{amsmath}
+
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\begin{align*}
+\begin{cases}
+                                 utility(s) \qquad &\text{si $s$ es terminal} \cr
+                                 eval(s) \qquad &\text{si $h = 0$} \cr
+                                 max\{minimax(\text{$s'$, $h-1$): $s'$ hijo de }$s$\}\qquad &\text{si es el turno de Max en $s$} \cr
+                                 min\{minimax(\text{$s'$, $h-1$): $s'$ hijo de }$s$\}\qquad &\text{si es el turno de Min en $s$} \cr
+                                 \end{cases}
+\end{align*}
+
+\end{document}
