@@ -1,5 +1,8 @@
 # Guión Cápsula de Búqueda Minimax
 
+
+## Introducción
+
 En este video, explicaremos el funcionamiento del algoritmo "búsqueda minimax". Este algoritmo permite implementar programas capaces de competir en juegos contra un adversario, donde el truco consistirá en construir nuestro programa de manera tal que pueda predecir los diferentes caminos que puede tomar el juego.
 
 ¿Pero por qué molestarnos en predecir el juego? Quizás podríamos simplificarnos la vida si, en lugar de anticipar todo lo que va a pasar, identificamos diferentes tipos de situaciones que pueden suceder en un juego, y guardamos en la memoria reglas que podamos usar cuando sea conveniente.
@@ -23,6 +26,8 @@ Si quisieramos luego usar el mismo método para un juego más complejo, como el 
 
 En el contexto de juegos con adversario, es básicamente realizar el ejercicio de simular el desarrollo del juego alternando entre nuestra perspectiva o la de nuestro oponente.
 
+## Analogía Min vs Max
+
 Esta simulación puede explicarse mediante una analogía útil. Supongamos que tenemos dos jugadores imaginarios: Max y Min. Max está jugando con los círculos y  Min juega con las cruces. Nuestra metología para decidir qué hacer será simular un juego entre Max y Min, y buscar la jugada que sea más beneficiosa para Max.
 
 Lo primero que Max tiene que hacer es mirar los resultados a los que conducen las diferentes jugadas que puede hacer desde un tablero en particular. Una vez que los tengamos, Max tiene que mirar cada uno de los tableros, y evaluarlo en base a si es una victoria, derrota o un empate. La idea aquí es elegir la jugada que lleve al mejor resultdado para Max.
@@ -34,7 +39,7 @@ Hagamos este proceso para el tablero de más a la derecha y simulemos el turno d
 Para los estados no terminales que encuentre Min, se tendrá que volver nuevamente a tomar la perspectiva de Max y repetir el procedimiento.
 
 
-GUIÓN: Puntaje minimax
+## Puntaje minimax
 
 Formalicemos un poco más lo que hicimos recién. La manera de evaluar una jugada que Max empleó consistia en dos casos posibles:
 * Verificar si las jugadas disponibles llevan a una victoria, derrota o un empate
@@ -52,7 +57,7 @@ Ahora propagaremos el valor hacia los niveles más bajos. En el nivel 1 es el tu
 
 Notamos que una vez que se disponen de estas etiquetas para todo el árbol de juego, elegir la mejor jugada desde un estado $s$ se reduce a elegir la jugada asociada al valor minimax($s$).
 
-GUIÓN: ¿Qué pasa si no podemos explorar el árbol completo?
+## Funciones de Evaluación
 
 Un último comentario sobre los alcances de la solución. Calcular el valor minimax requiere que hagamos una exploración completa del arbol de estados del juego; eso es equivalente a simular todo desarrollo posible de un juego desde el el inicio. Para un juego como el gato, con 9! estados, podemos efectivamente hacer eso sin problemas significativos de desempeño, pero rápidamente se vuelve imposible de hacer para juegos de más complejidad.
 
@@ -70,13 +75,9 @@ Para el tablero de la izquierda, no obstante, podemos verificar que Max tiene do
 
 Así, vemos que es posible tomar la misma decisión que se tomaría al explorar el árbol completo, pero recorriendo solamente un nivel de profundidad. La calidad de la decisión de nuestro agente queda condicionada a la calidad de la estimación que elijamos. Si bien para este caso en concreto no se observan diferencias, en otras situaciones es posible que nuestro agente tome decisiones sub-óptimas.
 
-GUIÓN: Búsqueda minimax
+## Pseudocódigo
 
-El algoritmo que hemos construido a lo largo de este video se denomina "búsqueda minimax". A nivel de pseudocódigo, este puede implementarse a partir de dos funciones recursivas:
-
-* $max\_value(s)$, que calcula el valor minimax($s$) y el movimiento asociado a tal valor cuando es el turno de Max.
-
-* $min\_value(s)$, que calcula el valor minimax($s$) y el movimiento asociado a tal valor cuando es el turno de Min.
+El algoritmo que hemos construido a lo largo de este video se denomina "búsqueda minimax". A nivel de pseudocódigo, este puede implementarse a partir de dos funciones recursivas $max\_value(s)$ y $min\_value(s)$. Tales funciones calculan el valor minimax($s$) y el movimiento asociado a tal valor cuando es el turno de Max o Min, respectivamente.
 
 
 Asumiendo que es el turno de Max en el estado $s$, comenzamos la simulación llamando a max_value($s$). Esta función tiene dos bloques de código. 
@@ -87,13 +88,13 @@ El primero es para el caso base, es decir, cuando el estado $s$ entregado es ter
 * Si $h=0$, alcanzamos la profundidad máxima de exploración de estados sin llegar a un estado terminal, de modo que entregaremos el valor de la función de evaluación sobre el último estado que alcanzamos.
 
 
-El segundo bloque de código es el caso recursivo, cuando el estado $s$ no es terminal. Aquí, la función calculará todos los estados sucesores $s*$, calculará min_value($s*$) para cada uno de ellos y retornará el máximo de dichos valores una vez que terminen de ser calculados, pues a Max le interesa llegar a los estados de máximo puntaje posible.
+El segundo bloque de código es el caso recursivo, cuando el estado $s$ no es terminal. Aquí, la función calculará calculará min_value($s*$) para cada uno de los estados sucesores, y retornará el máximo de dichos valores una vez que terminen de ser calculados, pues a Max le interesa llegar a los estados de máximo puntaje posible.
 
 Veamos ahora lo que está pasando en min_value($s$).
 
 * Si el estado $s$ es terminal, la función devolverá la utilidad de dicho estado.
 * Si $h=0$, alcanzamos la profundidad máxima de exploración de estados sin llegar a un estado terminal, de modo que entregaremos el valor de la función de evaluación sobre el último estado que alcanzamos.
 
-Si el estado $s$ no es terminal, la función calculará todos los estados sucesores mediante actions($s$) y result($s$, $a$). Luego, para cada estado hijo $s*$,  calculará max_value($s*$) y retornará ahora el mínimo de dichos valores cuando terminen de ser calculados, pues a Min le interesa llegar a los estados de mínimo puntaje posible. 
+Si el estado $s$ no es terminal, la función calculará max_value($s*$) para todos los estados sucesores, y retornará ahora el mínimo de dichos valores cuando terminen de ser calculados, pues a Min le interesa llegar a los estados de mínimo puntaje posible. 
 
 Con la nueva llamada a max_value, notamos que se repite el ciclo recién descrito. Este continuará hasta alcanzar el caso base, donde se asignará un valor al estado alcanzado, y todos los estados visitados terminarán de ser evaluados, de modo que Max pueda realizar la jugada óptima.
