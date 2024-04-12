@@ -1,34 +1,31 @@
-# Animaciones de Búsqueda Minimax con Manim
+# Minimax Search Animations with Manim
 
 ## General
-* Animaciones con la librería de python [Manim](https://www.manim.community/), creadas para capsula educativa sobre búsqueda minimax.
-* Explicaciones y ejemplos basados fuertemente en el capítulo 6 del texto de Russel & Norvig: [Artificial intelligence: A Modern Approach](http://aima.cs.berkeley.edu/).
+* Animations using the python library [Manim](https://www.manim.community/), created for an educational capsule on minimax search.
+* Explanations and examples heavily based on Chapter 6 of the book by Russel & Norvig: [Artificial intelligence: A Modern Approach](http://aima.cs.berkeley.edu/).
 
-## Compilado
+## Compilation
 
-### Paso 1: Prepara tu Archivo de Animación Python
+### Step 1: Prepare Your Python Animation File
 
-Primero, necesitas escribir tus animaciones en un archivo Python. Este script incluye el código para crear tu animación. En nuestro ejemplo, este archivo es ```pseudocode_scene.py```. Reemplázalo por el nombre de tu archivo Python.
+First, you need to write your animations in a Python file. This script includes the code to create your animation. In our example, this file is `pseudocode_scene.py`. Replace it with the name of your Python file.
 
-### Paso 2: Entendiendo las flags
+### Step 2: Understanding the Flags
 
-El comando Manim viene con varias flags que te ayudan a personalizar el video de salida. En nuestro ejemplo, hemos usado la flag ```-qh```.
+The Manim command comes with several flags that help you customize the output video. In our example, we have used the `-qh` flag.
 
-```-qh``` establece la calidad del video de salida. Tiene opciones como l para baja calidad, m para calidad media, h para alta calidad y p para calidad de producción (la más alta).
+`-qh` sets the quality of the output video. It has options like `l` for low quality, `m` for medium quality, `h` for high quality, and `p` for production quality (the highest).
 
-Asegúrate de reemplazar estas banderas según tu requerimiento.
+Make sure to replace these flags according to your requirement.
 
-### Paso 3: Nombre del Video de Salida
+### Step 3: Name of the Output Video
 
-Por último, debes nombrar el video de salida. En nuestro caso, es PseudoCode. Reemplázalo con el nombre que quieres que tenga tu archivo de video de salida.
+Lastly, you need to name the output video. In our case, it's `PseudoCode`. Replace it with the name you want your output video file to have.
 
-### Paso 4: Ejecutando el Comando
+### Step 4: Executing the Command
 
-Después de establecer todos los parámetros, ejecuta el comando en tu terminal:
+After setting all the parameters, execute the command in your terminal:
 
 ```
 manim -qh pseudocode_scene.py PseudoCode
 ```
-
-
-
